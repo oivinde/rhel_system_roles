@@ -1,5 +1,4 @@
 collections:
   - name: microsoft.sql
   - name: redhat.rhel_system_roles
-    version: '>=1.7.3'
 

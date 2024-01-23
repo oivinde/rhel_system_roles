@@ -1,4 +1,5 @@
 collections:
 #  - name: microsoft.sql
-  - name: redhat.rhel_system_roles
+#  - name: redhat.rhel_system_roles
+  - name: redhat.satellite_operations
 

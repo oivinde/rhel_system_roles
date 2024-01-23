@@ -2,11 +2,11 @@
 - name: "Install System Role for Web Console"
   hosts: "{{ vm_name }}"
   become: yes
+  collections:
+    - redhat.rhel_system_roles.cockpit
 
   tasks:
     - name: Install RHEL Web Console (Cockpit)
-      roles:
-        - redhat.rhel_system_roles.cockpit
       vars:
         cockpit_packages: default
         #cockpit_packages: minimal

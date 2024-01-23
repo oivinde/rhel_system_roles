@@ -1,4 +1,7 @@
 collections:
   - name: microsoft.sql
-  - name: redhat.rhel_system_roles
+  - name: azure.azcollection
+    version: '>=2.1.1'
+    src: https://aap-pah1.ekeberg.io/api/galaxy/content/rh-certified/
+#  - name: redhat.rhel_system_roles
 

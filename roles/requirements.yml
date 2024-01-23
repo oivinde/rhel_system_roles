@@ -1,3 +1,4 @@
 ---
-  - src: https://aap-pah1.ekeberg.io/api/galaxy/content/rh-certified/redhat.rhel_system_roles
-    scm: galaxy
+- name: redhat.rhel_system_roles
+  src: https://aap-pah1.ekeberg.io/api/galaxy/content/rh-certified/
+  

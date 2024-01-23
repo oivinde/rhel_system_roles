@@ -5,8 +5,8 @@
 
   tasks:
     - name: Install RHEL Web Console (Cockpit)
-      include_role:
-        name: rhel-system-roles.cockpit
+#      include_role:
+#        name: rhel-system-roles.cockpit
       vars:
         cockpit_packages: default
         #cockpit_packages: minimal

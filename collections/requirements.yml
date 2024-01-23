@@ -1,4 +1,4 @@
 collections:
-  - name: microsoft.sql
+#  - name: microsoft.sql
   - name: redhat.rhel_system_roles
 

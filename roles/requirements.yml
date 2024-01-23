@@ -1,4 +1,0 @@
----
-- name: redhat.rhel_system_roles
-  src: https://aap-pah1.ekeberg.io/api/galaxy/content/rh-certified/
-  
